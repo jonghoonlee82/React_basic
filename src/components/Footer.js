@@ -5,14 +5,14 @@ export default function Footer() {
     <footer class="footer_outer">
         <section class="footer_box">
             <div class="footer_left">
-                <div class="footer_logo"><img src="/images/logo.jpeg" alt="푸터로고" /></div>
+                <div class="footer_logo"><img src={process.env.PUBLIC_URL + "/images/logo.jpeg"} alt="푸터로고" /></div>
                 <p>대한민국 대표 축구공 브랜드</p>
-                <p>공공이와 함께 공차러 가시죠</p>
+                <p>공공이와 함께 공차러 가시죠!</p>
                 <div class="footer_sns_box">
-                    <a href="#!"><img src="/images/footer_insta.png" alt="" /></a>
-                    <a href="#!"><img src="/images/footer_youtube.png" alt="" /></a>
-                    <a href="#!"><img src="/images/footer_facebook.png" alt="" /></a>
-                    <a href="#!"><img src="/images/footer_kakao.png" alt="" /></a>
+                    <a href="#!"><img src={process.env.PUBLIC_URL + "/images/footer_insta.png"} alt="" /></a>
+                    <a href="#!"><img src={process.env.PUBLIC_URL + "/images/footer_youtube.png"} alt="" /></a>
+                    <a href="#!"><img src={process.env.PUBLIC_URL + "/images/footer_facebook.png"} alt="" /></a>
+                    <a href="#!"><img src={process.env.PUBLIC_URL + "/images/footer_kakao.png"} alt="" /></a>
                 </div>
             </div>
             <div class="footer_center">
